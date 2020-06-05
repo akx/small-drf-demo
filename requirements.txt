@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-django==2.2.5
-djangorestframework==3.10.3
+django==2.2.13            # via -r requirements.in
+djangorestframework==3.10.3  # via -r requirements.in
 pytz==2019.2              # via django
 sqlparse==0.3.0           # via django
